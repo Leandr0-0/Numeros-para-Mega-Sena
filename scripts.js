@@ -1,8 +1,7 @@
-// tipo Number
+function intervaloDeNumeroAleatorio(a,b) {
+    return Math.floor(Math.random () * (b - a + 1)) + a
+}
 
-const primeiroNumero = 6;
-const segundoNumero = 2;
-
-const operacaoMatematica = primeiroNumero * segundoNumero
-
-console.log (operacaoMatematica)
+console.log(intervaloDeNumeroAleatorio(0, 10))
+console.log(intervaloDeNumeroAleatorio(555, 1111))
+console.log(intervaloDeNumeroAleatorio(89, 431))
