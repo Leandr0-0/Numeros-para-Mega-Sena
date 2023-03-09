@@ -1,7 +1,11 @@
-//function intervaloDeNumeroAleatorio(a,b) {
-    return Math.floor(Math.random () * (b - a + 1)) + a
+const botaoSortear = document.querySelector("div.box button")
+var numeroSorteado = document.querySelector("div.box h1")
+var roleta = []
+
+for(i = 0; i <= 50; i++){
+    roleta.push(i)
 }
 
-//console.log(intervaloDeNumeroAleatorio(0, 10))
-//console.log(intervaloDeNumeroAleatorio(555, 1111))
-//console.log(intervaloDeNumeroAleatorio(89, 431))
+botaoSortear.addEventListener("click", () => {
+    numeroSorteado.innerHTML = "Seu Número da Mega é:" + roleta[Math.floor(Math.random() * roleta.length)]
+})
