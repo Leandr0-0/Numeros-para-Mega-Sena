@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Arial";
+    font-family: "Verdana";
 }
 
 body {
-    background-color: dodgerblue;
+    background-color: green;
     width: 100%;
     min-height: 100vh;
     display: grid;
@@ -32,7 +32,7 @@ div.box button{
     padding: 10px 15px;
     border: 0;
     border-radius: 5px;
-    background-color: dodgerblue;
+    background-color: rgb(51, 207, 51);
     color: white;
     cursor: pointer;
 }

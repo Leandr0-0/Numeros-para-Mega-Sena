@@ -7,5 +7,6 @@ for(i = 0; i <= 50; i++){
 }
 
 botaoSortear.addEventListener("click", () => {
-    numeroSorteado.innerHTML = "Seu Número da Mega é:" + roleta[Math.floor(Math.random() * roleta.length)]
+    numeroSorteado.innerHTML = "Seu Número da Mega é:" 
+    + roleta[Math.floor(Math.random() * roleta.length)]
 })
